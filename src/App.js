@@ -85,11 +85,7 @@ function RecipeList() {
     </div>
   ))}
 </div>
-    </a>
   </div>
-</footer>
-
-    </div>
   );
 }
 
