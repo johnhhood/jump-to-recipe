@@ -11,6 +11,15 @@ function Layout() {
         color: "#000080",
       }}
     >
+     {/* Under Construction GIF at the top */}
+      <div className="text-center mt-4">
+        <img
+          src="https://www.cameronsworld.net/img/under-construction/14.gif"
+          alt="Under Construction"
+          style={{ width: "100px", marginTop: "10px" }}
+        />
+      </div>
+      
       <main className="flex-grow">
         <Outlet />
       </main>
