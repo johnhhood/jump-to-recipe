@@ -70,6 +70,40 @@ function RecipeList() {
           </div>
         ))}
       </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  {filteredRecipes.slice(0, 6).map((recipe) => (
+    <div key={recipe.id} className="bg-white shadow-lg rounded-lg overflow-hidden p-6">
+      <Link to={`/recipe/${recipe.id}`} className="block">
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">{recipe.title}</h2>
+        <ul className="list-none mb-4">
+          {recipe.ingredients.slice(0, 3).map((ingredient, index) => (
+            <li key={index} className="text-gray-600 text-sm">{ingredient}</li>
+          ))}
+        </ul>
+        <p className="text-blue-600 text-sm font-semibold">View Full Recipe →</p>
+      </Link>
+    </div>
+  ))}
+</div>
+
+    {/* Footer with visitor counter */}
+<footer className="text-center text-gray-500 text-sm mt-12">
+  <div>© {new Date().getFullYear()} Jump To Recipe</div>
+  <div className="mt-2">
+    <a
+      href="https://www.freevisitorcounters.com"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <img
+        src=" <a href='http://www.freevisitorcounters.com'>click here</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=cd60322bb37f40095b5f584a92d0a76b20ece004'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1334926/t/13"></script>"
+        alt="Visitor counter"
+      />
+    </a>
+  </div>
+</footer>
+
     </div>
   );
 }
