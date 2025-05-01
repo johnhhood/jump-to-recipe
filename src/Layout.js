@@ -26,18 +26,23 @@ function Layout() {
         <marquee behavior="scroll" direction="left" scrollamount="6">
           ✨ Welcome to Jump To Recipe — No Life Stories, Just Recipes ✨
         </marquee>
-        <div style={{ marginTop: "8px" }}>
-          <a
-            href="https://www.freevisitorcounters.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="https://www.freevisitorcounters.com/en/home/counter/YOUR-COUNTER-ID/t/0"
-              alt="Visitor counter"
-              style={{ margin: "0 auto" }}
-            />
-          </a>
+       <div style={{ marginTop: "8px" }}>
+    <a
+      href="https://www.freevisitorcounters.com"
+      target="_blank"
+      rel="noreferrer"
+      style={{ color: "#000080", textDecoration: "underline" }}
+    >
+      click here
+    </a>
+    <script
+      type="text/javascript"
+      src="https://www.freevisitorcounters.com/auth.php?id=cd60322bb37f40095b5f584a92d0a76b20ece004"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.freevisitorcounters.com/en/home/counter/1334926/t/13"
+    ></script>
         </div>
       </footer>
     </div>
