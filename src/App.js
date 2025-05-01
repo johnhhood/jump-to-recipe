@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes, Link, useParams } from "react-router-dom";
+import Layout from 'jump-to-recipe/src/Layout.js'; 
 
 const recipes = [
   {
@@ -102,10 +103,12 @@ function RecipeDetail() {
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<RecipeList />} />
-        <Route path="/recipe/:id" element={<RecipeDetail />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<RecipeList />} />
+          <Route path="/recipe/:id" element={<RecipeDetail />} />
+        </Routes>
+      </Layout>
     </Router>
   );
 }
