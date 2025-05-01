@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes, Link, useParams } from "react-router-dom";
-import Layout from 'jump-to-recipe/src/Layout.js'; 
+import Layout from './Layout'; 
 
 const recipes = [
   {
