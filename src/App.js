@@ -85,21 +85,6 @@ function RecipeList() {
     </div>
   ))}
 </div>
-
-    {/* Footer with visitor counter */}
-<footer className="text-center text-gray-500 text-sm mt-12">
-  <div>© {new Date().getFullYear()} Jump To Recipe</div>
-  <div className="mt-2">
-    <a
-      href="https://www.freevisitorcounters.com"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <img
-        src=" <a href='http://www.freevisitorcounters.com'>click here</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=cd60322bb37f40095b5f584a92d0a76b20ece004'></script>
-<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1334926/t/13"></script>"
-        alt="Visitor counter"
-      />
     </a>
   </div>
 </footer>
