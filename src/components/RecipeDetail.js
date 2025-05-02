@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-
+import recipes from '../data/recipes';
 import { recipes } from "./RecipeList"; // or separate the data into its own file if needed
 
 function RecipeDetail() {
