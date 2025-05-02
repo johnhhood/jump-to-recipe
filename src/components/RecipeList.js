@@ -15,7 +15,7 @@ function RecipeList() {
 
   return (
     <div className="p-6">
-      <h1 className="text-4xl font-extrabold mb-8 text-center text-gray-800">Recipes</h1>
+      <h1 className="text-4xl font-extrabold mb-8 text-center text-gray-800">Jump to Recipe</h1>
       <div className="mb-6 flex justify-center">
         <input
           type="text"
