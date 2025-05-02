@@ -32,9 +32,9 @@ function Layout() {
           boxShadow: "inset 0 2px 4px rgba(0,0,0,0.1)",
         }}
       >
-        <div className="marquee">
-          <span>✨ Welcome to Jump To Recipe — No Bull Shit, Just Recipes ✨</span>
-        </div>
+        <marquee behavior="scroll" direction="left" scrollamount="6">
+              ✨ Welcome to Jump To Recipe — No Bull Shit, Just Recipes ✨
+        </marquee>
         
         <div style={{ marginTop: "8px" }}>
           <a
