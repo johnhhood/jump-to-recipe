@@ -7,12 +7,12 @@ import RecipeDetail from "./components/RecipeDetail";
 function App() {
   return (
     <Router>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<RecipeList />} />
-          <Route path="/recipe/:id" element={<RecipeDetail />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<RecipeList />} />
+          <Route path="recipe/:id" element={<RecipeDetail />} />
+        </Route>
+      </Routes>
     </Router>
   );
 }
