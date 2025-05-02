@@ -18,7 +18,6 @@ function Layout() {
           minHeight: "100vh",
         }}
       >
-        <h2 className="text-xl font-bold mb-6 text-center">Jump To Recipe</h2>
         <nav className="flex flex-col space-y-4">
           <Link to="/" className="hover:underline text-blue-800">
             🏠 Home
