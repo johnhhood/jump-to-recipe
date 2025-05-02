@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import recipes from '../data/recipes';
 
 function RecipeList() {
   const [searchTerm, setSearchTerm] = useState("");
