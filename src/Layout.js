@@ -16,7 +16,7 @@ function Layout() {
         <img
           src="http://www.infraredheatingscotland.com/wp-content/uploads/2021/01/construction_8.gif"
           alt="Under Construction"
-          style={{ width: "100px", marginTop: "10px" }}
+          style={{ width: "1000px", marginTop: "10px" }}
         />
       </div>
       
