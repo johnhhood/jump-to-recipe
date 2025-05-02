@@ -33,7 +33,7 @@ function Layout() {
         }}
       >
         <div className="marquee">
-          <span>✨ Welcome to Jump To Recipe — No Life Stories, Just Recipes ✨</span>
+          <span>✨ Welcome to Jump To Recipe — No Bull Shit, Just Recipes ✨</span>
         </div>
         
         <div style={{ marginTop: "8px" }}>
@@ -45,6 +45,10 @@ function Layout() {
           >
             click here
           </a>
+              <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=c4dd97d678feb381ea12b440ed5dfa1b1ecf6ef8'>
+              </script>
+              <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1335405/t/5">
+              </script>
         </div>
       </footer>
     </div>
