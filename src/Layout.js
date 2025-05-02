@@ -14,7 +14,7 @@ function Layout() {
       {/* Under Construction GIF at the top */}
       <div className="text-center mt-4">
         <img
-          src="https://www.cameronsworld.net/img/under-construction/14.gif"
+          src="https://web.archive.org/web/20220204023116if_/https://www.cameronsworld.net/img/under-construction/14.gif"
           alt="Under Construction"
           style={{ width: "100px", marginTop: "10px" }}
         />
